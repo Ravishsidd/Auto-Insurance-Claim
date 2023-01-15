@@ -1,20 +1,20 @@
 # Auto-Insurance-Claim
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--> Aim of the Project
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Aim of the Project:
 The aim of the project is to build a Machine Learning Model to predict whether an owner will initiate an auto insurance claim in the next year.
 
--> Background: 
+# Background:
 The auto insurance industry is witnessing a paradigm shift. Since auto insurance company consists of homogenous good thereby making it difficult to differentiate product A from product B, also companies are fighting a price war (for insurance price). On top of that, the distribution channel is shifting more from traditional insurance brokers to online purchases, which means that the ability for companies to interact through human touchpoints is limited, and customers should be quoted at a reasonable price. A good price quote is one that makes the customer purchase the policy and helps the company to increase the profits. 
 Also, the insurance premium is calculated based on more than 50+ parameters, which means that traditional business analytics-based algorithms are now limited in their ability to differentiate among customers based on subtle parameters.
 
--> Use Cases:
+# Use Cases:
 The model shall mainly support the following use cases:
 1. Conquering Market Share: Capture market share by lowering the prices of the premium for the customers, who are least likely to claim.
 2. Risk Management: Charge the right premium from the customer, who is likely to claim insurance in the coming year.
 3. Smooth Processing: Reduce the complexity of pricing models. Most of the transactions are happening online with larger customer attributes (thanks to the internet and social media). Harness the power of huge data to build complex ML models.
 4. Increased Profits: As per industry estimate 1% reduction in the claim can boost profit by 10%. So, through the ML model, we can identify and deny the insurance to the driver who will make a claim. Thus, ensuring reduced claim outgo and increased profit. Part of the model development is to identify and prioritize the above use cases.
 
--> Process Flow:
+# Process Flow:
 The Machine Learning model mainly consist of two phases: 
 1. EDA (Exploratory Data Analysis)-Analyze the datasets to summarize their main characteristics (with visual methods). A statistical model can be used, primarily EDA can be used to see what the data can tell us beyond the formal modeling or hypothesis testing task. 
 Following tasks can be performed as a part of EDA: 
@@ -28,11 +28,12 @@ Following tasks can be performed as a part of Modeling:
 • Use Deep Learning with sklearn MLPClassifier and check if the Neural Network Model is better than traditional models.
 • Arrival at a model with best f1-score.
 
--> Dataset Description:
+# Dataset Description:
 The project involves the use of a dataset with 600k training data and 57 features/data. In the train and test data, features that belong to similar groupings are tagged as such in the feature names (e.g., ind, reg, car, calc). In addition, feature names include the postfix bin to indicate binary features and cat to indicate categorical features. Features without these designations are either continuous or ordinal. Values of -1 indicate that the feature was missing from the observation. The target column signifies whether a claim was filed for that policy holder.
 
-->Tasks to be performed: 
-# "Exploratory Data Analysis"
+# Tasks to be performed:
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"Exploratory Data Analysis"
 1. Write at least 3 important inferences from the data above.
 2. Is the data balanced? Meaning are targets 0 and 1 in the right proportion. 
 3. How many categorical features are there. 
@@ -51,7 +52,8 @@ The project involves the use of a dataset with 600k training data and 57 feature
 16. Implement Hot Encoding for categorical features.
 17. In nominal and interval features, which features are suitable for StandardScaler.
 18. Summarize the learnings of ED.
-# "Modeling"
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+"Modeling"
 1. The Simple Logistic Regression Model seems to have high accuracy. Is that what we need at all? What is the problem with this model. 
 2. Why do you think f1-score is 0.0.
 3. What is the precision and recall score for the model.
