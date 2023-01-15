@@ -32,7 +32,7 @@ Following tasks can be performed as a part of Modeling:
 The project involves the use of a dataset with 600k training data and 57 features/data. In the train and test data, features that belong to similar groupings are tagged as such in the feature names (e.g., ind, reg, car, calc). In addition, feature names include the postfix bin to indicate binary features and cat to indicate categorical features. Features without these designations are either continuous or ordinal. Values of -1 indicate that the feature was missing from the observation. The target column signifies whether a claim was filed for that policy holder.
 
 ->Tasks to be performed: 
-"Exploratory Data Analysis"
+# "Exploratory Data Analysis"
 1. Write at least 3 important inferences from the data above.
 2. Is the data balanced? Meaning are targets 0 and 1 in the right proportion. 
 3. How many categorical features are there. 
@@ -51,7 +51,7 @@ The project involves the use of a dataset with 600k training data and 57 feature
 16. Implement Hot Encoding for categorical features.
 17. In nominal and interval features, which features are suitable for StandardScaler.
 18. Summarize the learnings of ED.
-"Modeling"
+# "Modeling"
 1. The Simple Logistic Regression Model seems to have high accuracy. Is that what we need at all? What is the problem with this model. 
 2. Why do you think f1-score is 0.0.
 3. What is the precision and recall score for the model.
